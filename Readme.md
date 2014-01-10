@@ -1,17 +1,19 @@
-# koa-delay
+# koa-delay: delay middleware for koa.
+  
+  This middleware does what nobody should do: add delay in a koa middleware stack.
 
-  Delay middleware for koa.
   Add a delay(ms) before going to the downstream middlware and/or before
   returning to the upstream middlare.
   Simulate the delay of async calls.
 
   This middleware can be used to build koa load testing graphs in order to understand the behavior of koa.
 
-  It can be used to simulate complex graphs and can be used as setup mechanism for testing the development of health check middleware for koa.
+  It can be used to simulate complex middleware stacks and can be used as setup mechanism for testing the development of health check middleware for koa.
 
   In debug mode it can be used as a learning tool to better visualize the effect of different yielding techniques.
 
   Of course, it does not make sense to add delay on purpose in a production app.
+
   Remember that koa will not start sending the response to a request until the middleware graph is fully traversed (downstream & upstream).
 
 
