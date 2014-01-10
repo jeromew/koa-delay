@@ -1,0 +1,28 @@
+{
+  "name": "koa-delay",
+  "description": "koa middleware useful to simulate delay in middleware graphs",
+  "repository": "jeromew/koa-delay",
+  "version": "0.0.1",
+  "keywords": [
+    "koa",
+    "middleware",
+    "delay",
+    "audit",
+    "load"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "koa": "koajs/koa",
+    "koa-compose": "~2.1.0",
+    "should": "~1.2.2",
+    "mocha": "~1.12.1",
+    "supertest": "~0.7.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "co-wait": "0.0.0",
+    "debug": "~0.7.4"
+  }
+}
