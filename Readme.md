@@ -36,7 +36,7 @@ $ curl -N http://127.0.0.1:3000
 
 You should probably call the url 2 times in order to remove most of the initial node.js/v8 bootstraping delay upon first call.
 
-### Add a 5 sec delay before going downstream
+### Add a delay middleware (30 ms downstream, 20 ms upstream)
 
 This example can be found in examples/single.js
 

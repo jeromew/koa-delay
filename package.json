@@ -2,7 +2,7 @@
   "name": "koa-delay",
   "description": "koa middleware useful to simulate delay in middleware graphs",
   "repository": "jeromew/koa-delay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "koa",
     "middleware",
