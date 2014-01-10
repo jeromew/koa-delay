@@ -11,6 +11,10 @@
 
   In debug mode it can be used as a learning tool to better visualize the effect of different yielding techniques.
 
+  Of course, it does not make sense to add delay on purpose in a production app.
+  Remember that koa will not start sending the response to a request until the middleware graph is fully traversed (downstream & upstream).
+
+
 ## Installation
 
 ```js
